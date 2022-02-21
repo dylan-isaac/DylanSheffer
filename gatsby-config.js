@@ -43,18 +43,20 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: 'gatsby-plugin-mdx',
       options: {
         root: __dirname,
-        gatsbyRemarkPlugins: [
-          `gatsby-remark-copy-linked-files`,
-          {
-            resolve: 'gatsby-remark-vscode',
-            options: {
+        remarkPlugins: [
+          [
+            require('gatsby-remark-vscode').remarkPlugin,
+            {
               theme: `Monokai Pro`,
               extensions: [`${__dirname}/build-files/theme.vsix`],
             },
-          },
+          ],
+        ],
+        gatsbyRemarkPlugins: [
+          `gatsby-remark-copy-linked-files`,
           {
             resolve: 'gatsby-remark-images',
             options: {
