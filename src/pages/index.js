@@ -159,54 +159,6 @@ const Site = ({ data: { me, projects }, ...props }) => (
         </div>
       </ContentContainer>
     </Hero>
-    {/* <ServicesSection>
-      <ContentContainer>
-        <MarkdownHeading>
-          <Link to="/services/">What I Do</Link>
-        </MarkdownHeading>
-        <SemanticList>
-          <li>
-            <ServiceCard
-              icon={FaUniversalAccess}
-              title="Accessibility Services"
-            >
-              <Text>
-                Worried about section 508 compliance? Don't know what the WCAG
-                is?
-              </Text>
-              <Text>
-                Bring me for accessibility auditing, remediation services, and
-                tailored workshops for your organization!
-              </Text>
-            </ServiceCard>
-          </li>
-          <li>
-            <ServiceCard icon={MdWeb} title="Custom Web App Development">
-              <Text>
-                Whether you have an idea you're looking to bring to life or need
-                some help with an existing project, I'm here to help!
-              </Text>
-            </ServiceCard>
-          </li>
-          <li>
-            <ServiceCard icon={FaHandsHelping} title="Help out your team">
-              <Text>
-                Have an important deadline looming and not enough team bandwidth
-                to get the job done?
-              </Text>
-              <Text>
-                I'm available as a developer for hire to add additional
-                resources, so you can meet you company's goals on time.
-              </Text>
-            </ServiceCard>
-          </li>
-        </SemanticList>
-        <Link to="/services">
-          More Details{' '}
-          <span className="visually-hidden">about my services.</span>
-        </Link>
-      </ContentContainer>
-    </ServicesSection> */}
     <ProjectsSection>
       <ContentContainer>
         <MarkdownHeading>
@@ -231,19 +183,6 @@ const Site = ({ data: { me, projects }, ...props }) => (
         </Link>
       </ContentContainer>
     </ProjectsSection>
-    {/* <CTASection>
-      <ContentContainer>
-        <H>Let's Work Together</H>
-        <Text>
-          Whether you need someone to help you launch an idea, make your
-          application more accessible, or just provide some assistance on
-          finishing a project, I am here to help! 😄
-        </Text>
-        <Button as={Link} to="/contact">
-          Contact Me
-        </Button>
-      </ContentContainer>
-    </CTASection> */}
   </>
 );
 
