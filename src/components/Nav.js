@@ -89,14 +89,14 @@ const NavLinks = ({ children }) => (
     <LinkItem>
       <PartialNavLink to="/about">About</PartialNavLink>
     </LinkItem>
-    <LinkItem>
+    {/* <LinkItem>
       <PartialNavLink to="/services">Services</PartialNavLink>
+    </LinkItem> */}
+    <LinkItem>
+      <PartialNavLink to="/projects">Projects</PartialNavLink>
     </LinkItem>
     <LinkItem>
-      <PartialNavLink to="/projects">Work</PartialNavLink>
-    </LinkItem>
-    <LinkItem>
-      <PartialNavLink to="/posts">Articles</PartialNavLink>
+      <PartialNavLink to="/posts">Writing</PartialNavLink>
     </LinkItem>
     <LinkItem>
       <Button className="cta" as={PartialNavLink} to="/contact">

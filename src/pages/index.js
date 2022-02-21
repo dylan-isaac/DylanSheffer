@@ -153,11 +153,13 @@ const Site = ({ data: { me, projects }, ...props }) => (
             Full Stack Web Developer committed to building performant and
             inclusive web applications.
           </p>
-          <Status available={false} />
+          <Button as={Link} to="/contact">
+            Let's Chat!
+          </Button>
         </div>
       </ContentContainer>
     </Hero>
-    <ServicesSection>
+    {/* <ServicesSection>
       <ContentContainer>
         <MarkdownHeading>
           <Link to="/services/">What I Do</Link>
@@ -204,11 +206,11 @@ const Site = ({ data: { me, projects }, ...props }) => (
           <span className="visually-hidden">about my services.</span>
         </Link>
       </ContentContainer>
-    </ServicesSection>
+    </ServicesSection> */}
     <ProjectsSection>
       <ContentContainer>
         <MarkdownHeading>
-          <Link to="/projects/">Case Studies</Link>
+          <Link to="/projects/">Personal Projects</Link>
         </MarkdownHeading>
         <div className="projects-container">
           {projects.nodes.map(
@@ -229,7 +231,7 @@ const Site = ({ data: { me, projects }, ...props }) => (
         </Link>
       </ContentContainer>
     </ProjectsSection>
-    <CTASection>
+    {/* <CTASection>
       <ContentContainer>
         <H>Let's Work Together</H>
         <Text>
@@ -241,7 +243,7 @@ const Site = ({ data: { me, projects }, ...props }) => (
           Contact Me
         </Button>
       </ContentContainer>
-    </CTASection>
+    </CTASection> */}
   </>
 );
 

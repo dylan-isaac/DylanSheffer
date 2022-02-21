@@ -11,7 +11,7 @@ const ServicesPageStyle = styled.section`
   }
 `;
 
-export default function ServicesPage({ data, pageContext, path }) {
+function ServicesPage({ data, pageContext, path }) {
   return (
     <ServicesPageStyle>
       <ServicesMetaTags />

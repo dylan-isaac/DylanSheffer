@@ -30,7 +30,7 @@ export default function AboutPage({ data, pageContext, path }) {
         <Text>
           I have been{' '}
           <a href="https://web.archive.org/web/20160224114658/http://www.dylansheffer.com/">
-            building websites for 8 years.
+            building websites for 10 years.
           </a>{' '}
           I use HTML, CSS, and JavaScript for most of my projects, but I am also
           experienced using technologies such as .NET, relational databases, and
@@ -51,10 +51,10 @@ export default function AboutPage({ data, pageContext, path }) {
           My full list of qualifications can be seen on my{' '}
           <a href="https://resume.dylansheffer.com">resume</a> 🤓.
         </Text>
-        <Text>
+        {/* <Text>
           If you're interested in bringing me on to your project,{' '}
           <Link to="/contact">please reach out to me</Link>!
-        </Text>
+        </Text> */}
       </section>
       {/* <H as="h3">
         A little bit <em>more</em> about me

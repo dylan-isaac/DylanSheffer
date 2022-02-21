@@ -14,7 +14,7 @@ export default function PostsPage({
       currentPage={pageContext.currentPage}
       totalCount={posts.totalCount}
       pathPrefix="/posts/"
-      title="Articles"
+      title="Writing"
     >
       <ArticlesMetaTags pageContext={pageContext} />
       <div>
