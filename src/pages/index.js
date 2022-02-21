@@ -150,7 +150,7 @@ const Site = ({ data: { me, projects }, ...props }) => (
         <div className="hero-content">
           <H>Dylan Sheffer</H>
           <p>
-            Full Stack Web Developer committed to building performant and
+            Senior Front-end Engineer committed to building performant and
             inclusive web applications.
           </p>
           <Button as={Link} to="/contact">
